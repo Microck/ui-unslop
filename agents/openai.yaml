@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Unslop"
+  short_description: "Remove formulaic AI styling from frontend UI"
+  default_prompt: "Use $ui-unslop to audit and refine this interface without changing its behavior."
