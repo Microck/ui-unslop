@@ -2,6 +2,20 @@
 
 Use this catalog during the audit. The target is not decoration itself. The target is decoration chosen by formula instead of product intent.
 
+## Contents
+
+1. Decorative pill badges and eyebrow tags
+2. Gradient headline text
+3. Formulaic heroes and scroll cues
+4. Cookie-cutter sections and uniform card grids
+5. Generic AI copy
+6. Excess animation
+7. Nested cards and double bezels
+8. Homogeneous color goo
+9. Generic decorative assets
+10. Trend effects without brand ownership
+11. Unjustified interface conventions
+
 ## 1. Decorative pill badges and eyebrow tags
 
 Typical tell:
@@ -48,7 +62,7 @@ Better choices:
 - Pair serif and sans-serif type for contrast.
 - Let size and weight create hierarchy.
 
-## 3. Formulaic heroes
+## 3. Formulaic heroes and scroll cues
 
 Typical sequence:
 
@@ -65,9 +79,9 @@ Use a structure that fits the content instead:
 - Editorial: strong type and body copy, with an inline text link instead of ornamental buttons.
 - Split: text on one side and one strong visual on the other.
 
-Remove a scroll indicator unless users need explicit help to discover unusual scrolling behavior.
+Remove "Scroll to explore," down arrows, and other scroll cues unless users need explicit help to discover unusual scrolling behavior.
 
-## 4. Cookie-cutter sections
+## 4. Cookie-cutter sections and uniform card grids
 
 Typical tell: every section repeats `label -> heading -> subtitle -> card grid` with the same width, spacing, and rhythm.
 
@@ -80,6 +94,8 @@ Better choices:
 - Use a rule or divider when it clarifies structure.
 
 Variation must clarify content. Random inconsistency is not personality.
+
+Do not force unrelated ideas into identical cards. Choose a list, comparison, prose block, diagram, table, or unboxed layout when that structure fits the content better.
 
 ## 5. Generic AI copy
 
@@ -120,11 +136,38 @@ One hero entrance, subtle feedback on interactive controls, and at most one ambi
 
 If removing motion makes the page dull, improve the layout rather than restoring ambient effects.
 
-## 7. Double-bezel cards
+## 7. Nested cards and double bezels
 
-Typical tell: most cards use an outer shell plus a nested inner core.
+Typical tell: most cards use an outer shell plus a nested inner core, or several containers nest without clarifying ownership or interaction.
 
-Reserve this premium treatment for one or two hero feature cards or product showcases. Use a simple border and background for ordinary grids, FAQs, statistics, and footer links.
+Reserve a double bezel for one or two hero feature cards or product showcases. Flatten cards-inside-cards into spacing, headings, dividers, or one meaningful container. Use a simple border and background for ordinary grids, FAQs, statistics, and footer links.
+
+## 8. Homogeneous color goo
+
+Typical tell: many similar tinted chips, panels, and accents compete at the same visual weight without establishing hierarchy.
+
+Start from a neutral base, one intentional accent, and semantic state colors. Use color to communicate brand, state, or importance rather than to fill every available surface.
+
+## 9. Generic decorative assets
+
+- **Icons in colored rounded boxes:** Keep the box only when it encodes a real category or state. Prefer a domain-specific icon, a coherent illustration system, or no icon when the asset adds no information.
+- **Emoji as visual assets:** Reserve emoji for user content or a voice that intentionally uses them. Use consistent icons, illustrations, or plain text for product features.
+- **Fake browser chrome:** Remove ornamental red, yellow, and green dots. Show an accurate product frame when browser context matters, or crop to the product itself.
+- **Empty gradient visual placeholders:** Replace decorative gradient rectangles with a real product view, useful diagram, relevant image, or deliberate whitespace.
+- **Particle and connect-the-dots backgrounds:** Keep them only when they belong to the brand or explain real data. Otherwise, use composition and content to create interest.
+
+## 10. Trend effects without brand ownership
+
+- **Trendy serif heroes:** Use a display serif only when the subject and type system support it. Do not add one solely to make a generic page feel premium.
+- **Glassmorphism everywhere:** Use blur and transparency only when they communicate depth or material relationship. Prefer legible opaque surfaces for ordinary content.
+- **Gradient and glow buttons:** Establish action hierarchy with label, placement, contrast, and a solid treatment. Reserve glow for a brand-owned effect and never let it imitate focus state.
+- **Rounded left-border callouts:** Use a semantic alert or callout style when the message has real status. Avoid the rounded card plus colored stripe as default decoration.
+
+## 11. Unjustified interface conventions
+
+- **Decorative numbered sections:** Use `01`, `02`, and `03` only for a real sequence, ranking, or stable reference.
+- **Four-column stat strips:** Show verified, relevant evidence instead of default SaaS counters. Remove weak or invented numbers.
+- **Floating chat bubbles:** Add one only when a real support channel exists, the control works, and persistent placement serves the workflow.
 
 ## Final test
 

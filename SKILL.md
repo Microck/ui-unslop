@@ -1,6 +1,6 @@
 ---
 name: ui-unslop
-description: Unslop frontend UI after building or reviewing a page, component, or layout. Detect and replace formulaic AI aesthetics in product and marketing interfaces, including decorative pills, gradient headlines, template heroes, repetitive sections, generic copy, excess motion, and nested card bezels.
+description: Unslop frontend UI after building or reviewing a page, component, or layout. Detect and replace formulaic AI aesthetics in product and marketing interfaces, including decorative pills, gradients, template heroes, repetitive cards, generic assets and copy, excess motion, trend effects, and unjustified SaaS conventions.
 ---
 
 # UI Unslop
@@ -22,7 +22,7 @@ Completion criterion: each suspect choice can be classified as semantic, brand-o
 
 ## 2. Audit the full surface
 
-Read [the pattern catalog](references/pattern-catalog.md), then inspect the entire page for all seven patterns. Record each occurrence as keep, revise, or remove and state why.
+Read [the pattern catalog](references/pattern-catalog.md), then inspect the entire page for every named pattern. Record each occurrence as keep, revise, or remove and state why.
 
 Prioritize high-salience repetition: the hero, section openings, repeated cards, copy, and motion system. A page-wide pattern matters more than a stray utility class.
 
@@ -52,7 +52,10 @@ Render the changed UI at its relevant responsive sizes and interaction states. C
 - section openings do not all repeat label, heading, subtitle, and cards
 - copy contains none of the catalog's banned filler phrases
 - motion is limited to interactions or a small number of intentional moments
-- double bezels are reserved for at most one or two focal cards
+- generic icons, emoji, fake browser chrome, empty gradients, and particles do not stand in for real content
+- palette, type, and surfaces follow brand hierarchy rather than tint goo or generic premium effects
+- numbering, statistics, chat controls, and callouts exist only when functional and truthful
+- content is not forced into uniform cards or nested frames
 - one distinctive, product-specific decision is visible without harming usability
 - focus, contrast, reduced-motion behavior, and core actions still work
 
@@ -63,4 +66,3 @@ Completion criterion: all checks pass or each remaining exception has a semantic
 ## Output
 
 Summarize what was removed, what replaced it, what intentionally stayed, and how the result was verified.
-
